@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div id="header" class="header">
+            <h1 class="title">To Do List</h1>
+            <!-- <input type="text" placeholder="Write here..." id="myInput">
+            <span onclick="newElement()" class="addBtn">Add</span> -->
+            <main class="todo-list">
+                <div class="actions">
+                    <input class="task-input" type="text" placeholder="Write here..." id="myInput">
+                    <span onclick="newElement()"><button class="btn create-task-btn">Create</button></span>
+                </div>
+                <ul class="list" id="myUl">
+                    <li>Add some notes!</li>
+                </ul>
+            </main>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
